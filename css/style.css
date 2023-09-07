@@ -5,4 +5,48 @@
 }
 body{
     font-family: 'Fredoka', sans-serif;
+    color: black;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.debug{
+    border: 1px solid green;
+}
+h1{
+    color: #E53170;
+    text-align: center;
+    padding: 2%;
+}
+#text-only{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+h2{
+    color: white;
+    margin-bottom: 3px;
+}
+.container{
+    width: calc(100% / 6);
+}
+.team{
+    background-color: #0F0E17;
+    color: white;
+}
+.email{
+    color: #4ECAF4;
+}
+img{
+    width: 200px;
+    margin-right: 5px;
+}
+.pull-left{
+    float: left;
 }
