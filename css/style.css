@@ -32,9 +32,10 @@ h1{
 h2{
     color: white;
     margin-bottom: 3px;
+    display: inline-block;
 }
 .container{
-    width: calc(100% / 6);
+    width: calc(100% / 3);
 }
 .team{
     background-color: #0F0E17;
@@ -44,9 +45,12 @@ h2{
     color: #4ECAF4;
 }
 img{
-    width: 200px;
+    width: 80px;
     margin-right: 5px;
 }
 .pull-left{
     float: left;
+}
+p{
+    margin-bottom: 3px;
 }
